@@ -29,7 +29,7 @@ A modern weather application built with React Native, Expo, and Tailwind CSS. Ge
 1. **Clone and install**
    ```bash
    git clone <your-repo-url>
-   cd weather-app-react-native-expo
+   cd expo-weather-app
    npm install
    ```
 
