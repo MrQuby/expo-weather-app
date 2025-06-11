@@ -1,0 +1,38 @@
+import { WEATHER_API_KEY } from "@env";
+
+export const apiKey = WEATHER_API_KEY;
+
+export const weatherImages = {
+  "Partly cloudy": require("../assets/images/partlycloudy.png"),
+  "Moderate rain": require("../assets/images/moderaterain.png"),
+  "Patchy rain possible": require("../assets/images/moderaterain.png"),
+  "Patchy rain nearby": require("../assets/images/moderaterain.png"),
+  Sunny: require("../assets/images/sun.png"),
+  Clear: require("../assets/images/sun.png"),
+  Overcast: require("../assets/images/cloud.png"),
+  Cloudy: require("../assets/images/cloud.png"),
+  "Light rain": require("../assets/images/moderaterain.png"),
+  "Moderate rain at times": require("../assets/images/moderaterain.png"),
+  "Heavy rain": require("../assets/images/heavyrain.png"),
+  "Heavy rain at times": require("../assets/images/heavyrain.png"),
+  "Moderate or heavy freezing rain": require("../assets/images/heavyrain.png"),
+  "Moderate or heavy rain shower": require("../assets/images/heavyrain.png"),
+  "Moderate or heavy rain with thunder": require("../assets/images/heavyrain.png"),
+  "Patchy light rain": require("../assets/images/moderaterain.png"),
+  "Light drizzle": require("../assets/images/moderaterain.png"),
+  "Patchy light drizzle": require("../assets/images/moderaterain.png"),
+  "Fog": require("../assets/images/mist.png"),
+  "Freezing fog": require("../assets/images/mist.png"),
+  "Patchy light snow": require("../assets/images/moderaterain.png"),
+  "Light snow": require("../assets/images/moderaterain.png"),
+  "Patchy moderate snow": require("../assets/images/moderaterain.png"),
+  "Moderate snow": require("../assets/images/moderaterain.png"),
+  "Patchy heavy snow": require("../assets/images/heavyrain.png"),
+  "Heavy snow": require("../assets/images/heavyrain.png"),
+  "Thundery outbreaks possible": require("../assets/images/heavyrain.png"),
+  "Patchy sleet possible": require("../assets/images/moderaterain.png"),
+  "Light sleet": require("../assets/images/moderaterain.png"),
+  "Moderate or heavy sleet": require("../assets/images/heavyrain.png"),
+  Mist: require("../assets/images/mist.png"),
+  other: require("../assets/images/moderaterain.png"),
+};
